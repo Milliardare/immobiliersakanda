@@ -1,0 +1,332 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* FFHGVJV */
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #6179ff;
+    color: #fff;
+    padding: 10px 20px;
+    
+}
+
+header .logo img {
+    height:70px;
+}
+
+
+/* FHCHGC */
+
+
+/* header {
+    header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #979ba1;
+    color: #fff;
+    padding: 10px 20px;
+} */
+    /* padding: 15px;
+    background-color: #5b86b4;
+    color: white;
+
+} */
+
+.publisher-info {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.publisher-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+.publisher-name {
+    font-size: 18px;
+}
+
+.carousel-container {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-controls {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.carousel-control {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.description {
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* TESTE */
+
+
+
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.buttons .like {
+    width: 40px;
+    height: 40px;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Love_Heart_SVG.svg/1200px-Love_Heart_SVG.svg.png') no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.1s;
+    border-color: #f8fafc;
+}
+
+.buttons .like.liked {
+    animation: heartbeat 0.5s ease-in-out;
+}
+.buttons .whatsapp {
+    background: #25D366;
+}
+
+
+.buttons .contact {
+    background: #007BFF;
+}
+
+.description {
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    text-align: S;
+}
+/* likes{
+color: rgb(216, 12, 12); */
+
+/* .buttons .like {
+    background: #FF0000;
+    
+
+
+} */
+
+/* BOUTON PARTAGE */
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.share-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.share-btn:hover {
+    background-color: #0056b3;
+}
+
+/* BOUTON PARTAGE */
+
+.marketing {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 19px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .carousel button {
+        padding: 5px;
+    }
+}
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.2); }
+    50% { transform: scale(1); }
+    75% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+
+/* TESTE */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #6179ff;
+
+ 
+    color: rgb(0, 0, 0);
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+}
+/* hscbahqblnq */
+
+.contact-form {
+    margin-bottom:20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-info a.phone-button {
+    background: #007bff;
+}
+
+.contact-info a:hover {
+    opacity: 0.8;
+}
+
+
+
+/* ahbfajfalc */
+
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+
+@media (max-width: 600px) {
+    .carousel-item img {
+        height: auto;
+    }
+
+    .carousel-control {
+        padding: 5px;
+    }
+
+    .description p {
+        font-size: 16px;
+    }
+}
